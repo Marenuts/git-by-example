@@ -1,1 +1,4 @@
-add <-function(a,b) a + b
+add <-function(x){
+    # x must be a vector
+    Reduce('+',x)
+}
